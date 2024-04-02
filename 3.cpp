@@ -4,7 +4,7 @@ using namespace std;
 struct DetailAlamat {
     string desa;
     string kota;
-}
+};
 
 struct mahasiswa {
     string nim;
@@ -15,16 +15,16 @@ struct mahasiswa {
 
 int main (){
     cout << "Nomor Mahasiswa : "; 
-    getline (cin, mhs.nim);
+    cin >>  mhs.nim;
     cout << "Nama Mahasiswa : ";
-    getline (cin, mhs.nama);
+    cin >>  mhs.nama;
 
     cout << "alamat mahasiswa : "<< endl;
     cout << "\t nama Desa : ";
     cin >> mhs.alamat.desa;
     cout << "\t nama kota : ";
     cin >> mhs.alamat.kota;
-    cout << "umjur mahasiswa : ";
+    cout << "umur mahasiswa : ";
     cin >> mhs.umjur;
 
     cout << endl;
