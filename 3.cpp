@@ -26,7 +26,7 @@ mahasiswa mhs;
     cout << "\t nama kota : ";
     cin >> mhs.alamat.kota;
     cout << "umur mahasiswa : ";
-    cin >> mhs.umjur;
+    cin >> mhs.umur;
 
     cout << endl;
     cout << "\n Nama : " << mhs.nama;
