@@ -2,7 +2,7 @@
 using namespace std;
 
 struct DetailAlamat {
-    string desa
+    string desa;
     string kota;
 };
 
